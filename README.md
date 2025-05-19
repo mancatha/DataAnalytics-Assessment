@@ -4,7 +4,7 @@ This project presents a comphensive analysis of financial transcation data to un
 
 🔍 Analytical Questions & Insights
 1. 💰 What is the total amount transacted overall and by year?
-    ![Total Transaction by Year](igraph\Traansaction.png)
+    ![Total Transaction by Year](images/total_transaction_by_year.png)
 
 Approach: Aggregated transaction values (amount) across all users.
 
