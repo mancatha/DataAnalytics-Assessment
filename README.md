@@ -4,8 +4,6 @@ This project presents a comphensive analysis of financial transcation data to un
 
 🔍 Analytical Questions & Insights
 1. 💰 What is the total amount transacted overall and by year?
-    ![Total Transaction by Year](images/total_transaction_by_year.png)
-
 Approach: Aggregated transaction values (amount) across all users.
 
 Insights: Identified total sums transacted. Yearly analysis provided visibility into financial growth and platform usage over time.
@@ -29,3 +27,38 @@ Insights: Most transactions were successful, but notable proportions were pendin
 Approach: Visualized fraud_score using histograms and distribution plots.
 
 Insights: Majority of users fell into low-to-medium risk ranges. A few outliers with high fraud scores were identified as high-risk users.
+
+🧠 Methodology
+Data Preprocessing:
+
+Cleaned and merged datasets using pandas.
+
+Handled duplicate and missing values.
+
+Converted date columns to datetime objects.
+
+### Feature Engineering:
+
+Extracted year from transaction_date.
+
+Created user-level aggregations.
+
+Classified fraud risk based on score thresholds.
+
+### Visualization:
+
+Used matplotlib and seaborn for bar plots, line charts, and histograms.
+
+Generated time series plots for trend analysis.
+
+Plotted distributions for categorical and continuous variables.
+
+
+🧰 Tools & Technologies
+Python – Data analysis and scripting
+
+Pandas – Data manipulation and aggregation
+
+Matplotlib & Seaborn – Visualization
+
+Jupyter Notebook – Interactive development
